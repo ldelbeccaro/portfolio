@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Laura Del Beccaro</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Gentium+Basic:400,700|Open+Sans:400,800,700,600|Alike' rel='stylesheet' type='text/css'>
+	<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<script src="js/main.js"></script>
+</head>
+<body>
+<header>
+	<h1>LAURA DEL BECCARO</h1>
+	<nav>
+		<ul>
+			<li><a href="#home">ABOUT</a></li>
+			<li><a href="#portfolio">WORK</a></li>
+			<li><a href="#contact">CONTACT</a></li>
+		</ul>
+	</nav>
+</header>
+<div class="slideshow">
+	<input type="radio" id="btn1" name="radio-set" class="select1" checked="checked" />
+	<label for="btn1" class="btn-label-1"></label>
+
+	<input type="radio" id="btn2" name="radio-set" class="select2">
+	<label for="btn2" class="btn-label-2"></label>
+
+	<input type="radio" id="btn3" name="radio-set" class="select3">
+	<label for="btn3" class="btn-label-3"></label>
+
+	<label for="btn1" class="arrow a1"></label>
+	<label for="btn2" class="arrow a2"></label>
+	<label for="btn3" class="arrow a3"></label>
+
+	<div class="content">
+		<div class="parallax-bg"></div>
+		<ul class="slider clearfix">
+			<li id="home" class="page">
+				<div class="lefthome">
+				<img src="images/headshot.jpg" alt="Laura Del Beccaro">
+				</div>
+				<div class="righthome">
+				<p>Hi! I'm currently a Sales Engineer at <a href="//mixpanel.com" target="_blank">Mixpanel</a>, the most advanced analytics platform for mobile and web. I help customers implement Mixpanel, coordinating client-side and server-side integrations to help them learn as much as they can about their businesses.</p>
+				<p>Previously, I was an analyst at a healthcare consulting firm, working with patient data to find trends and optimize patient flow and collections within hospital and medical group systems.</p>
+				<p>I am interested in data analysis, front end web development and web and mobile application design. Take a look at some of my <a href="#portfolio" class="worklink">work</a>, and feel free to <a href="#contact" class="contactlink">contact me</a> at any time!</p>
+				</div>
+			</li>
+			<li id="portfolio" class="page">
+				<h2>WORK</h2>
+				<div id="left">
+					<div class="work">
+						<img src="../images/to-do-list.png" alt="">
+						<div class="overlay" id="to-do-list">
+							<p class="language">JavaScript</p>
+							<p class="description">Interactive to-do list web application</p>
+							<a href="//github.com/ldelbeccaro/to-do-list" target="_blank" class="fa fa-code fa-2x first"></a>
+							<a href="//ldelbeccaro.github.io/to-do-list" target="_blank" class="fa fa-external-link fa-2x"></a>
+						</div>
+					</div>
+					<div class="work">
+						<img src="../images/moocle.png" alt="">
+						<div class="overlay" id="moocle">
+							<p class="language">JavaScript</p>
+							<p class="description">Curated list of educational resources for any topic (using APIs of various online content providers)</p>
+							<a href="//github.com/ldelbeccaro/moocle" target="_blank" class="fa fa-code fa-2x first"></a>
+							<a href="//ldelbeccaro.github.io/moocle" target="_blank" class="fa fa-external-link fa-2x"></a>
+						</div>
+					</div>
+					<div class="work last">
+						<p class="title">Bike Shop</p>
+						<div class="overlay" id="bicycle_industry">
+							<p class="language">Python</p>
+							<p class="description">Modeling the bicycle industry using Python classes</p>
+							<a href="//github.com/ldelbeccaro/bicycle_industry/tree/v2" target="_blank" class="fa fa-code fa-2x center"></a>
+						</div>
+					</div>
+				</div>
+				<div id="right">
+					<div class="work">
+						<img src="../images/quiz-app.png" alt="Harry Potter Quiz App">
+						<div class="overlay" id="quiz-app">
+							<p class="language">JavaScript</p>
+							<p class="description">Interactive Harry Potter quiz application</p>
+							<a href="//github.com/ldelbeccaro/quiz-app" target="_blank" class="fa fa-code fa-2x first"></a>
+							<a href="//ldelbeccaro.github.io/quiz-app" target="_blank" class="fa fa-external-link fa-2x"></a>
+						</div>
+					</div>
+					<div class="work">
+						<img src="../images/guessing-game.png" alt="">
+						<div class="overlay" id="guessing-game">
+							<p class="language">JavaScript</p>
+							<p class="description">Number guessing game with "hot or cold" feedback</p>
+							<a href="//github.com/ldelbeccaro/guessing-game" target="_blank" class="fa fa-code fa-2x first"></a>
+							<a href="//ldelbeccaro.github.io/guessing-game" target="_blank" class="fa fa-external-link fa-2x"></a>
+						</div>
+					</div>
+					<div class="work last">
+						<p class="title">Pirate Bartender</p>
+						<div class="overlay" id="bartender">
+							<p class="language">Python</p>
+							<p class="description">Simulated pirate bartending experience using Python functions</p>
+							<a href="//github.com/ldelbeccaro/bartender/tree/v3" target="_blank" class="fa fa-code fa-2x center"></a>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li id="contact" class="page">
+				<h2>CONTACT</h2>
+				<ul>
+					<a href="//linkedin.com/in/lauradelbeccaro" target="_blank"><li><p class="link">LINKEDIN</p><p><span class="fa fa-2x fa-linkedin"></span></p></li></a>
+					<a href="//twitter.com/ldelbeccaro" target="_blank"><li><p class="link">TWITTER</p><p><span class="fa fa-2x fa-twitter"></span></p></li></a>
+					<a href="//github.com/ldelbeccaro" target="_blank"><li><p class="link">GITHUB</p><p><span class="fa fa-2x fa-github"></span></p></li></a>
+					<a href="mailto:laura@lauradelbeccaro.com"><li><p class="link">EMAIL</p><p><span class="fa fa-2x fa-envelope"></span></p></li></a>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</div>
+</body>
+</html>
